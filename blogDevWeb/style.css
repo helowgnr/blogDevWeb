@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.header {
+    background-color: rgb(99, 185, 185);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-item {
+    flex: 1;
+    border: 1px solid  rgb(99, 185, 185);
+    padding: 1rem;
+    min-width: 265px;
+}
+
+.footer {
+    background-color: rgb(99, 185, 185);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#planta-titulo2{
+    height: 70px;
+    transform: scaleX(-1);
+}
+    #planta-titulo1{
+        height: 70px;
+    }
